@@ -4,9 +4,16 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
+const firstLetter = arr => {
+    let initialLetters = []
+    for (let i = 0; i < arr.length; i++) {
+        initialLetters.push(arr[i].charAt(0))
+    }
+    return initialLetters
+}
 
 // Invoca la funzione qui e stampa il risultato in console
+console.log(firstLetter(names));
 
 
 
