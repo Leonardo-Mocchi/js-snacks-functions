@@ -6,7 +6,6 @@ const userName = 'Mario';
 // Dichiara la funzione qui.
 let sayHi = name => console.log("Hi, " + name);
 
-
 // Invoca la funzione qui e stampa il risultato in console
 sayHi(userName)
 
