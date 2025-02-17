@@ -4,6 +4,11 @@ const userName = 'Mario';
 
 
 // Dichiara la funzione qui.
+/**
+ * Says hi :)
+ * @param {*} name the person to greet
+ * @returns a greeting to someone
+ */
 let sayHi = name => console.log("Hi, " + name);
 
 // Invoca la funzione qui e stampa il risultato in console

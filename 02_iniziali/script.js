@@ -4,6 +4,11 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+/**
+ * Creates an Array that displays only the first characters of your starting array
+ * @param {*} arr insert you array here
+ * @returns a simple array with only the initial characters of yours
+ */
 const firstLetter = arr => {
     let initialLetters = []
     for (let i = 0; i < arr.length; i++) {

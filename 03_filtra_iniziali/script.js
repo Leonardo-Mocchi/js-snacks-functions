@@ -8,9 +8,9 @@ const char2FilterFor = "a"
 
 /**
  * Filters an array to display a second one that contains only values that begin with a character of your choice
- * @param {*} array the array you want to filter
+ * @param {*} array insert your array here
  * @param {*} char your chosen character to filter for
- * @returns an array with values that only begin with your selected character
+ * @returns an array with values that only BEGIN with your selected character
  */
 let filter4FirstCharacter = (array, char) => {
     let filteredForChar = []
